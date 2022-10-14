@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(163, 137, 23);
+  color: rgb(2, 26, 11);
+}
+
+h2{
+  color: rgb(240, 20, 20);
+}
+
+.sc-container, .ticket{
+  margin-top: 100px;
+  border-radius: 15px;
+  padding: 50px 50px;
+  text-align: center;
+  background-color: white;
+}

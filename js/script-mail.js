@@ -1,7 +1,7 @@
-
+/*
 //creo le variabili e una lista array di email
 let isPresent = false;
-const output = document.getElementById('output');
+const output = document.getElementById('output-email');
 const listaEmail = ['abc@mail.com', 'bcd@mail.it', 'cde@mail.com', 'def@mail.es', 'efg@mail.uk'];
 
 //chiedo all utente di inserire la sua email 
@@ -19,4 +19,4 @@ if (isPresent) {
   output.innerHTML = 'Puoi accedere!';
 } else{
     output.innerHTML = "Ritenta, sarai più fortunato!";
-}
+}*/

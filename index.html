@@ -4,12 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
+
+  <link rel="stylesheet" href="css/style.css">
+
   <title>Mail&Dadi</title>
 </head>
 <body>
+
+  <div class="container sc-container">
+    <div class="row">
+    
+      <div class="col-6 offset-3">
+        <h2 id="output-giocatore">Tira il dado, qui ci sarà il tuo risultato...</h2>
+        <div>
+          <button type="button" class="btn btn-outline-success" id="bottone">Tira</button>
+        </div>
+        <h3 id="output-computer">... e qui quello del computer</h3>
+        <h3 id="output"></h3>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
   
-  <h1 id="output"></h1>
+  <h1 id="output-email"></h1>
 
   <script src="js/script-mail.js"></script>
+  <script src="js/script-dadi.js"></script>
 </body>
 </html>
